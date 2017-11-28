@@ -3,7 +3,7 @@
  */
 function s_input() {
     this.UI = 'input';
-    this.text = 'Value';
+    this.text = 'value';
     this.href = '';
     this.methods = {};
 

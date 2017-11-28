@@ -5,9 +5,10 @@
 var Key = null;
 
 var elementStack = {
-    'manishi' : s_div,
-    'sudarshan' : s_anchor,
-    'noida' : s_input
+    'lion' : s_div,
+    'cat' : s_anchor,
+    'tiger' : s_input,
+    'dog' : s_h1
 };
 
 

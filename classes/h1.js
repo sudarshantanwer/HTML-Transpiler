@@ -1,18 +1,15 @@
 /**
  * Created by sudarshan on 13/11/17.
  */
-function s_anchor() {
-    this.UI = 'a';
+function s_h1() {
+    this.UI = 'h1';
     this.text = 'innerText';
-    this.href = '';
 
     BaseElement.call(this);
 
 }
 
-s_anchor.prototype.applyAttributes = function (ele) {
+s_h1.prototype.applyAttributes = function (ele) {
     ele[this['text']] = this.attrs.value;
-    ele.href= this.attrs.path;
-
 
 }
